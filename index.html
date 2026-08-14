@@ -109,7 +109,7 @@
           const mimeType = file.type || "image/jpeg";
           const base64Data = rawData.split(',')[1];
 
-          const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AQ.Ab8RN6KU_3P3UyXMzceNirZLrBssYkM1I4H_5Gm6fcRQFHDO9w`;
+          const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
           const payload = {
             contents: [{
